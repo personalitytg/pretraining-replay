@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pretraining Replay</title>
+    <meta name="description" content="A scrubber through the pretraining of a 30M language model on TinyStories. Drag the timeline and watch grammar emerge.">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pretraining Replay">
+    <meta property="og:description" content="Scrub through 50,000 training steps of a 30M language model. Curated moments where grammar emerges from noise.">
+    <meta property="og:image" content="https://personalitytg.github.io/pretraining-replay/og-image.png">
+    <meta property="og:url" content="https://personalitytg.github.io/pretraining-replay/">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pretraining Replay">
+    <meta name="twitter:description" content="Scrub through 50,000 training steps of a 30M language model. Curated moments where grammar emerges from noise.">
+    <meta name="twitter:image" content="https://personalitytg.github.io/pretraining-replay/og-image.png">
+    <style>
+      html { background: #ffffff; }
+      html.dark { background: #0a0a0a; }
+      body { background: inherit; color: #171717; margin: 0; }
+      html.dark body { color: #f5f5f5; }
+    </style>
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme');
+          var theme;
+          if (stored === 'dark' || stored === 'light') {
+            theme = stored;
+          } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+            theme = 'light';
+          } else {
+            theme = 'dark';
+          }
+          if (theme === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white dark:bg-neutral-950">
+    <div id="root">
+      <div style="display:flex; height:100vh; flex-direction:column;">
+        <div style="height:62px; border-bottom:1px solid rgba(120,120,120,.18);"></div>
+        <div style="flex:1 1 0; min-height:0;"></div>
+        <div style="height:108px; border-top:1px solid rgba(120,120,120,.18);"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

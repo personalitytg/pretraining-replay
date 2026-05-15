@@ -1,0 +1,154 @@
+[
+  {
+    "id": "words_emerge",
+    "title": "Words emerge from noise",
+    "step": 100,
+    "probe_id": "vocabulary_size",
+    "headline_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "generation": "Once upon a time, there was a little girl named. He said, \" at. Tim to play with his mommy. She said, and said, and are a little girl that was a little girl named's mom. The bird. He was very, a Lily. She was a, he went to his big, Lily"
+    },
+    "before_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "step": 25,
+      "generation": "Once upon a time, there was a little girl named.... settling.. the so rationality,..\n.... Sport toe and. and settling.. to dayfresh... settling........ the........adult. the.., Integ. wanted misdemeanor"
+    },
+    "explanation": "Up to step 25 the model emits rare GPT-2 tokens — Sport, settling, rationality, DragonMagazine — vocabulary that has no relationship to TinyStories' domain. By step 100 the output is dominated by common English words appropriate to the prompt (Lily, mommy, play, said), though syntax is still broken.",
+    "tweet_text": "Step 100: BPE noise resolves into English words. The model knows what 'Lily' means."
+  },
+  {
+    "id": "first_complete_sentence",
+    "title": "First complete sentence",
+    "step": 200,
+    "probe_id": "multi_sentence",
+    "headline_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved to play. She wanted to play with her mommy. She looked together and play with her to go to fly and get the table. But her mom. Her mom told the window and didn't try Lily said, \"That's play. But her mom said,"
+    },
+    "before_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "step": 100,
+      "generation": "Once upon a time, there was a little girl named. He said, \" at. Tim to play with his mommy. She said, and said, and are a little girl that was a little girl named's mom. The bird. He was very, a Lily. She was a, he went to his big, Lily"
+    },
+    "explanation": "At step 200 the prompt completes into a full sentence ending in a period, followed by a second sentence. Output becomes segmentable.",
+    "tweet_text": "Step 200: first complete sentence. The model writes \"She loved to play.\""
+  },
+  {
+    "id": "quotation_marks_close",
+    "title": "Quotation marks close",
+    "step": 325,
+    "probe_id": "uses_quotation_marks",
+    "headline_example": {
+      "prompt_id": "p_dialogue",
+      "seed": 0,
+      "generation": "He said, \"Thank you, kids!\" Lily said, \"It's okay!\" Suddenly, Benny looked up. \"I'm like to be careful with you for a mess. I'm like the best brother!\" The dad said, \"Let's play with you.\""
+    },
+    "before_example": {
+      "prompt_id": "p_dialogue",
+      "seed": 0,
+      "step": 275,
+      "generation": "He said, \"Thank you, I like to go, but you can't find anything. It's something to play with it. It's like to be careful with it for. Her mom. The man is very busy. Lily said, \"That's okay. Do you can use one"
+    },
+    "explanation": "At step 325 the model first reliably produces a matched pair of quotation marks in dialogue. Fifty steps earlier the opening quote drifted without a closing partner.",
+    "tweet_text": "Step 325: the model first closes a quotation mark in dialogue."
+  },
+  {
+    "id": "moral_of_the_story",
+    "title": "The moral of the story",
+    "step": 400,
+    "probe_id": "vocabulary_size",
+    "headline_example": {
+      "prompt_id": "p_dialogue",
+      "seed": 0,
+      "generation": "He said, Billy said, \"I like to go play with you.\" The moral of the story is about how to ask for that you always be careful with you when you need."
+    },
+    "before_example": {
+      "prompt_id": "p_dialogue",
+      "seed": 0,
+      "step": 300,
+      "generation": "He said, \"Thank you, why do it is a kind girl,\" Mia said. \"It's okay!\" The little girl smiled and said. She was so happy. The girl smiled and said, \"I'm glad we can do you, we have a magical toy.\""
+    },
+    "explanation": "By step 400 the model writes 'The moral of the story is...' as a reliable closing template across multiple prompts. The narrative body it is supposed to summarize — a coherent multi-sentence story — only stabilises at step 600. The closing template crystallises 200 steps before the body it summarises.",
+    "tweet_text": "Step 400: 'The moral of the story is...' stabilises as a reliable closing template — 200 steps before the model can write the body of a story it's supposed to summarise."
+  },
+  {
+    "id": "multi_sentence_narrative",
+    "title": "Multi-sentence narrative",
+    "step": 600,
+    "probe_id": "multi_sentence",
+    "headline_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved playing with her toys, but her mommy helped her feel better. One day, Lily's mommy gave her a big hug and said, \"Lily, we will play together in the park now?\" Her mommy replied, \"Yes, we can make one"
+    },
+    "before_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "step": 300,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved to play in the house to play with her mom. One day, her mom said yes and daddy. Mommy took a big boy for a little. She gave her favorite favorite car and it was having fun. Lily felt happy. Lily went"
+    },
+    "explanation": "By step 600 three coherent sentences chain into a fragment of narrative. Sentences refer back to each other; the second sentence is no longer independent of the first.",
+    "tweet_text": "Step 600: three sentences chain. Narrative emerges."
+  },
+  {
+    "id": "narrative_conflict",
+    "title": "Narrative conflict",
+    "step": 5000,
+    "probe_id": "coherent_three_word_phrase",
+    "headline_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 1,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved to write pictures and draw pictures. One day, she went to the park to play with her friends. They were having so much fun! But then, a big wind came by and everything started to rain. Lily was sad because she could not play outside. She said"
+    },
+    "before_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 1,
+      "step": 2000,
+      "generation": "Once upon a time, there was a little girl named Lily. Lily loved to write on her paper. She would write on her paper every day. One day, Lily found a big book on her paper. It was a picture of a butterfly. Lily read the picture and felt very excited. \"Look at this pretty butterfly!\" she said"
+    },
+    "explanation": "At step 5000 stories develop internal tension. \"But then, a big wind came by\" — an event interrupts the happy setup, with consequence and emotion following. The model has narrative structure, not just sentence chaining.",
+    "tweet_text": "Step 5000: stories acquire conflict. \"But then, a big wind came by\" — a counter-event sets up the arc."
+  },
+  {
+    "id": "plural_agreement",
+    "title": "Plural agreement",
+    "step": 7000,
+    "probe_id": "plural_after_two",
+    "headline_example": {
+      "prompt_id": "p_plural",
+      "seed": 3,
+      "generation": "There were two bears, who were the best. They went to the beach together to make a new home. From that day on, the bears made sure the bears were comfortable, and they were the best of friends. The bears and bears were the happiest bears in the world."
+    },
+    "before_example": {
+      "prompt_id": "p_plural",
+      "seed": 3,
+      "step": 5000,
+      "generation": "There were two The two friends looked at each other and smiled. They were happy. The two friends went back to the garden. They had lots of fun playing together, and they were both happy."
+    },
+    "explanation": "At step 7000 the slot after \"There were two\" is reliably filled with a plural noun. Two thousand steps earlier the slot was just as often a stalled sentence break or a stray quotation mark.",
+    "tweet_text": "Step 7000: \"There were two ___\" becomes plural. Number agreement is learned."
+  },
+  {
+    "id": "final_form",
+    "title": "Final form",
+    "step": 25000,
+    "probe_id": "loss_below_threshold",
+    "headline_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved to play in the park with her friends. One day, Lily and her friends were playing hide-and-seek when Lily fell and hurt her knee. It hurt a lot, but her friends were strong and they knew what to do. They all went to their house and got"
+    },
+    "before_example": {
+      "prompt_id": "s_named_girl",
+      "seed": 0,
+      "step": 10000,
+      "generation": "Once upon a time, there was a little girl named Lily. She loved to play in the park with her friends. One day, Lily fell down and hurt her knee. Her friend, Sarah, saw her crying and asked, \"Are you okay, Lily?\" Lily nodded her head and said, \"I'm okay, but my knee hurts.\""
+    },
+    "explanation": "At step 25000 the model writes complete TinyStories at its trained quality plateau. The remaining 25000 steps only sand the rough edges.",
+    "tweet_text": "Step 25000: trained quality plateau reached. 25000 more steps only polish."
+  }
+]

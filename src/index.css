@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes textview-fade-in {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  .animate-textview-fade {
+    animation: textview-fade-in 140ms ease-out;
+  }
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-blue-400 dark:focus-visible:ring-offset-neutral-950;
+  }
+}

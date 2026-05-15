@@ -1,0 +1,1059 @@
+{
+  "tokens": [
+    {
+      "id": 1169,
+      "token_text": "the",
+      "category": "article"
+    },
+    {
+      "id": 262,
+      "token_text": " the",
+      "category": "article"
+    },
+    {
+      "id": 64,
+      "token_text": "a",
+      "category": "article"
+    },
+    {
+      "id": 257,
+      "token_text": " a",
+      "category": "article"
+    },
+    {
+      "id": 272,
+      "token_text": "an",
+      "category": "article"
+    },
+    {
+      "id": 281,
+      "token_text": " an",
+      "category": "article"
+    },
+    {
+      "id": 3797,
+      "token_text": " cat",
+      "category": "common_noun"
+    },
+    {
+      "id": 3290,
+      "token_text": " dog",
+      "category": "common_noun"
+    },
+    {
+      "id": 2933,
+      "token_text": " boy",
+      "category": "common_noun"
+    },
+    {
+      "id": 2576,
+      "token_text": " girl",
+      "category": "common_noun"
+    },
+    {
+      "id": 2156,
+      "token_text": " house",
+      "category": "common_noun"
+    },
+    {
+      "id": 5509,
+      "token_text": " tree",
+      "category": "common_noun"
+    },
+    {
+      "id": 1110,
+      "token_text": " day",
+      "category": "common_noun"
+    },
+    {
+      "id": 1755,
+      "token_text": " night",
+      "category": "common_noun"
+    },
+    {
+      "id": 582,
+      "token_text": " man",
+      "category": "common_noun"
+    },
+    {
+      "id": 2415,
+      "token_text": " woman",
+      "category": "common_noun"
+    },
+    {
+      "id": 1200,
+      "token_text": " child",
+      "category": "common_noun"
+    },
+    {
+      "id": 2802,
+      "token_text": " mother",
+      "category": "common_noun"
+    },
+    {
+      "id": 2988,
+      "token_text": " father",
+      "category": "common_noun"
+    },
+    {
+      "id": 1545,
+      "token_text": " friend",
+      "category": "common_noun"
+    },
+    {
+      "id": 6512,
+      "token_text": " bird",
+      "category": "common_noun"
+    },
+    {
+      "id": 2613,
+      "token_text": " ball",
+      "category": "common_noun"
+    },
+    {
+      "id": 1097,
+      "token_text": " car",
+      "category": "common_noun"
+    },
+    {
+      "id": 4252,
+      "token_text": " sun",
+      "category": "common_noun"
+    },
+    {
+      "id": 8824,
+      "token_text": " moon",
+      "category": "common_noun"
+    },
+    {
+      "id": 1660,
+      "token_text": " water",
+      "category": "common_noun"
+    },
+    {
+      "id": 2057,
+      "token_text": " food",
+      "category": "common_noun"
+    },
+    {
+      "id": 13373,
+      "token_text": " toy",
+      "category": "common_noun"
+    },
+    {
+      "id": 1492,
+      "token_text": " book",
+      "category": "common_noun"
+    },
+    {
+      "id": 1621,
+      "token_text": " story",
+      "category": "common_noun"
+    },
+    {
+      "id": 1517,
+      "token_text": " thing",
+      "category": "common_noun"
+    },
+    {
+      "id": 1021,
+      "token_text": " hand",
+      "category": "common_noun"
+    },
+    {
+      "id": 1182,
+      "token_text": " head",
+      "category": "common_noun"
+    },
+    {
+      "id": 4151,
+      "token_text": " eye",
+      "category": "common_noun"
+    },
+    {
+      "id": 835,
+      "token_text": " way",
+      "category": "common_noun"
+    },
+    {
+      "id": 640,
+      "token_text": " time",
+      "category": "common_noun"
+    },
+    {
+      "id": 318,
+      "token_text": " is",
+      "category": "verb_present"
+    },
+    {
+      "id": 373,
+      "token_text": " was",
+      "category": "verb_present"
+    },
+    {
+      "id": 468,
+      "token_text": " has",
+      "category": "verb_present"
+    },
+    {
+      "id": 550,
+      "token_text": " had",
+      "category": "verb_present"
+    },
+    {
+      "id": 460,
+      "token_text": " can",
+      "category": "verb_present"
+    },
+    {
+      "id": 481,
+      "token_text": " will",
+      "category": "verb_present"
+    },
+    {
+      "id": 561,
+      "token_text": " would",
+      "category": "verb_present"
+    },
+    {
+      "id": 765,
+      "token_text": " want",
+      "category": "verb_present"
+    },
+    {
+      "id": 588,
+      "token_text": " like",
+      "category": "verb_present"
+    },
+    {
+      "id": 1842,
+      "token_text": " love",
+      "category": "verb_present"
+    },
+    {
+      "id": 766,
+      "token_text": " see",
+      "category": "verb_present"
+    },
+    {
+      "id": 3285,
+      "token_text": " hear",
+      "category": "verb_present"
+    },
+    {
+      "id": 1254,
+      "token_text": " feel",
+      "category": "verb_present"
+    },
+    {
+      "id": 892,
+      "token_text": " think",
+      "category": "verb_present"
+    },
+    {
+      "id": 760,
+      "token_text": " know",
+      "category": "verb_present"
+    },
+    {
+      "id": 910,
+      "token_text": " say",
+      "category": "verb_present"
+    },
+    {
+      "id": 1560,
+      "token_text": " tell",
+      "category": "verb_present"
+    },
+    {
+      "id": 1265,
+      "token_text": " ask",
+      "category": "verb_present"
+    },
+    {
+      "id": 711,
+      "token_text": " play",
+      "category": "verb_present"
+    },
+    {
+      "id": 1057,
+      "token_text": " run",
+      "category": "verb_present"
+    },
+    {
+      "id": 2513,
+      "token_text": " walk",
+      "category": "verb_present"
+    },
+    {
+      "id": 1650,
+      "token_text": " sit",
+      "category": "verb_present"
+    },
+    {
+      "id": 1302,
+      "token_text": " stand",
+      "category": "verb_present"
+    },
+    {
+      "id": 3993,
+      "token_text": " sleep",
+      "category": "verb_present"
+    },
+    {
+      "id": 4483,
+      "token_text": " eat",
+      "category": "verb_present"
+    },
+    {
+      "id": 1816,
+      "token_text": " went",
+      "category": "verb_past"
+    },
+    {
+      "id": 2497,
+      "token_text": " saw",
+      "category": "verb_past"
+    },
+    {
+      "id": 4966,
+      "token_text": " ran",
+      "category": "verb_past"
+    },
+    {
+      "id": 6807,
+      "token_text": " walked",
+      "category": "verb_past"
+    },
+    {
+      "id": 2826,
+      "token_text": " played",
+      "category": "verb_past"
+    },
+    {
+      "id": 531,
+      "token_text": " said",
+      "category": "verb_past"
+    },
+    {
+      "id": 1297,
+      "token_text": " told",
+      "category": "verb_past"
+    },
+    {
+      "id": 1965,
+      "token_text": " asked",
+      "category": "verb_past"
+    },
+    {
+      "id": 1807,
+      "token_text": " thought",
+      "category": "verb_past"
+    },
+    {
+      "id": 2993,
+      "token_text": " knew",
+      "category": "verb_past"
+    },
+    {
+      "id": 2936,
+      "token_text": " felt",
+      "category": "verb_past"
+    },
+    {
+      "id": 2982,
+      "token_text": " heard",
+      "category": "verb_past"
+    },
+    {
+      "id": 15063,
+      "token_text": " ate",
+      "category": "verb_past"
+    },
+    {
+      "id": 3332,
+      "token_text": " sat",
+      "category": "verb_past"
+    },
+    {
+      "id": 6204,
+      "token_text": " stood",
+      "category": "verb_past"
+    },
+    {
+      "id": 11687,
+      "token_text": " jumped",
+      "category": "verb_past"
+    },
+    {
+      "id": 13818,
+      "token_text": " laughed",
+      "category": "verb_past"
+    },
+    {
+      "id": 16896,
+      "token_text": " cried",
+      "category": "verb_past"
+    },
+    {
+      "id": 2227,
+      "token_text": " wanted",
+      "category": "verb_past"
+    },
+    {
+      "id": 8288,
+      "token_text": " liked",
+      "category": "verb_past"
+    },
+    {
+      "id": 6151,
+      "token_text": " loved",
+      "category": "verb_past"
+    },
+    {
+      "id": 1043,
+      "token_text": " found",
+      "category": "verb_past"
+    },
+    {
+      "id": 2921,
+      "token_text": " gave",
+      "category": "verb_past"
+    },
+    {
+      "id": 1718,
+      "token_text": " took",
+      "category": "verb_past"
+    },
+    {
+      "id": 925,
+      "token_text": " made",
+      "category": "verb_past"
+    },
+    {
+      "id": 1263,
+      "token_text": " big",
+      "category": "adjective"
+    },
+    {
+      "id": 1402,
+      "token_text": " small",
+      "category": "adjective"
+    },
+    {
+      "id": 7331,
+      "token_text": " tall",
+      "category": "adjective"
+    },
+    {
+      "id": 1790,
+      "token_text": " short",
+      "category": "adjective"
+    },
+    {
+      "id": 3772,
+      "token_text": " happy",
+      "category": "adjective"
+    },
+    {
+      "id": 6507,
+      "token_text": " sad",
+      "category": "adjective"
+    },
+    {
+      "id": 922,
+      "token_text": " good",
+      "category": "adjective"
+    },
+    {
+      "id": 2089,
+      "token_text": " bad",
+      "category": "adjective"
+    },
+    {
+      "id": 3621,
+      "token_text": " nice",
+      "category": "adjective"
+    },
+    {
+      "id": 1611,
+      "token_text": " kind",
+      "category": "adjective"
+    },
+    {
+      "id": 1612,
+      "token_text": " mean",
+      "category": "adjective"
+    },
+    {
+      "id": 4451,
+      "token_text": " smart",
+      "category": "adjective"
+    },
+    {
+      "id": 3049,
+      "token_text": " fast",
+      "category": "adjective"
+    },
+    {
+      "id": 3105,
+      "token_text": " slow",
+      "category": "adjective"
+    },
+    {
+      "id": 649,
+      "token_text": " new",
+      "category": "adjective"
+    },
+    {
+      "id": 1468,
+      "token_text": " old",
+      "category": "adjective"
+    },
+    {
+      "id": 1862,
+      "token_text": " young",
+      "category": "adjective"
+    },
+    {
+      "id": 3024,
+      "token_text": " hot",
+      "category": "adjective"
+    },
+    {
+      "id": 4692,
+      "token_text": " cold",
+      "category": "adjective"
+    },
+    {
+      "id": 5814,
+      "token_text": " warm",
+      "category": "adjective"
+    },
+    {
+      "id": 2705,
+      "token_text": " soft",
+      "category": "adjective"
+    },
+    {
+      "id": 1327,
+      "token_text": " hard",
+      "category": "adjective"
+    },
+    {
+      "id": 6016,
+      "token_text": " bright",
+      "category": "adjective"
+    },
+    {
+      "id": 3223,
+      "token_text": " dark",
+      "category": "adjective"
+    },
+    {
+      "id": 5897,
+      "token_text": " quiet",
+      "category": "adjective"
+    },
+    {
+      "id": 339,
+      "token_text": " he",
+      "category": "pronoun"
+    },
+    {
+      "id": 673,
+      "token_text": " she",
+      "category": "pronoun"
+    },
+    {
+      "id": 340,
+      "token_text": " it",
+      "category": "pronoun"
+    },
+    {
+      "id": 484,
+      "token_text": " they",
+      "category": "pronoun"
+    },
+    {
+      "id": 356,
+      "token_text": " we",
+      "category": "pronoun"
+    },
+    {
+      "id": 345,
+      "token_text": " you",
+      "category": "pronoun"
+    },
+    {
+      "id": 314,
+      "token_text": " I",
+      "category": "pronoun"
+    },
+    {
+      "id": 465,
+      "token_text": " his",
+      "category": "pronoun"
+    },
+    {
+      "id": 607,
+      "token_text": " her",
+      "category": "pronoun"
+    },
+    {
+      "id": 663,
+      "token_text": " its",
+      "category": "pronoun"
+    },
+    {
+      "id": 511,
+      "token_text": " their",
+      "category": "pronoun"
+    },
+    {
+      "id": 616,
+      "token_text": " my",
+      "category": "pronoun"
+    },
+    {
+      "id": 20037,
+      "token_text": " Lily",
+      "category": "name"
+    },
+    {
+      "id": 4186,
+      "token_text": " Tom",
+      "category": "name"
+    },
+    {
+      "id": 3932,
+      "token_text": " Ben",
+      "category": "name"
+    },
+    {
+      "id": 3409,
+      "token_text": " Sam",
+      "category": "name"
+    },
+    {
+      "id": 11735,
+      "token_text": " Anna",
+      "category": "name"
+    },
+    {
+      "id": 22162,
+      "token_text": " Lucy",
+      "category": "name"
+    },
+    {
+      "id": 5436,
+      "token_text": " Max",
+      "category": "name"
+    },
+    {
+      "id": 5045,
+      "token_text": " Tim",
+      "category": "name"
+    },
+    {
+      "id": 1757,
+      "token_text": " John",
+      "category": "name"
+    },
+    {
+      "id": 5335,
+      "token_text": " Mary",
+      "category": "name"
+    },
+    {
+      "id": 290,
+      "token_text": " and",
+      "category": "function_word"
+    },
+    {
+      "id": 475,
+      "token_text": " but",
+      "category": "function_word"
+    },
+    {
+      "id": 393,
+      "token_text": " or",
+      "category": "function_word"
+    },
+    {
+      "id": 523,
+      "token_text": " so",
+      "category": "function_word"
+    },
+    {
+      "id": 788,
+      "token_text": " then",
+      "category": "function_word"
+    },
+    {
+      "id": 618,
+      "token_text": " when",
+      "category": "function_word"
+    },
+    {
+      "id": 611,
+      "token_text": " if",
+      "category": "function_word"
+    },
+    {
+      "id": 780,
+      "token_text": " because",
+      "category": "function_word"
+    },
+    {
+      "id": 287,
+      "token_text": " in",
+      "category": "function_word"
+    },
+    {
+      "id": 319,
+      "token_text": " on",
+      "category": "function_word"
+    },
+    {
+      "id": 284,
+      "token_text": " to",
+      "category": "function_word"
+    },
+    {
+      "id": 422,
+      "token_text": " from",
+      "category": "function_word"
+    },
+    {
+      "id": 351,
+      "token_text": " with",
+      "category": "function_word"
+    },
+    {
+      "id": 329,
+      "token_text": " for",
+      "category": "function_word"
+    },
+    {
+      "id": 286,
+      "token_text": " of",
+      "category": "function_word"
+    },
+    {
+      "id": 530,
+      "token_text": " one",
+      "category": "number"
+    },
+    {
+      "id": 734,
+      "token_text": " two",
+      "category": "number"
+    },
+    {
+      "id": 1115,
+      "token_text": " three",
+      "category": "number"
+    },
+    {
+      "id": 1440,
+      "token_text": " four",
+      "category": "number"
+    },
+    {
+      "id": 1936,
+      "token_text": " five",
+      "category": "number"
+    },
+    {
+      "id": 13,
+      "token_text": ".",
+      "category": "punctuation"
+    },
+    {
+      "id": 11,
+      "token_text": ",",
+      "category": "punctuation"
+    },
+    {
+      "id": 0,
+      "token_text": "!",
+      "category": "punctuation"
+    },
+    {
+      "id": 30,
+      "token_text": "?",
+      "category": "punctuation"
+    },
+    {
+      "id": 1,
+      "token_text": "\"",
+      "category": "punctuation"
+    },
+    {
+      "id": 6,
+      "token_text": "'",
+      "category": "punctuation"
+    },
+    {
+      "id": 25,
+      "token_text": ":",
+      "category": "punctuation"
+    },
+    {
+      "id": 26,
+      "token_text": ";",
+      "category": "punctuation"
+    },
+    {
+      "id": 43586,
+      "token_text": " Norwich",
+      "category": "rare"
+    },
+    {
+      "id": 43573,
+      "token_text": "hak",
+      "category": "rare"
+    },
+    {
+      "id": 27388,
+      "token_text": " hinted",
+      "category": "rare"
+    },
+    {
+      "id": 39085,
+      "token_text": " muddy",
+      "category": "rare"
+    },
+    {
+      "id": 48648,
+      "token_text": "entary",
+      "category": "rare"
+    },
+    {
+      "id": 29516,
+      "token_text": "VO",
+      "category": "rare"
+    },
+    {
+      "id": 38436,
+      "token_text": " TED",
+      "category": "rare"
+    },
+    {
+      "id": 21666,
+      "token_text": " turnout",
+      "category": "rare"
+    },
+    {
+      "id": 41981,
+      "token_text": "cerning",
+      "category": "rare"
+    },
+    {
+      "id": 46496,
+      "token_text": " reimb",
+      "category": "rare"
+    },
+    {
+      "id": 19657,
+      "token_text": " eventual",
+      "category": "rare"
+    },
+    {
+      "id": 9141,
+      "token_text": " attended",
+      "category": "rare"
+    },
+    {
+      "id": 24716,
+      "token_text": "nas",
+      "category": "rare"
+    },
+    {
+      "id": 25829,
+      "token_text": " 275",
+      "category": "rare"
+    },
+    {
+      "id": 15210,
+      "token_text": " inspection",
+      "category": "rare"
+    },
+    {
+      "id": 35485,
+      "token_text": " balloons",
+      "category": "rare"
+    },
+    {
+      "id": 25990,
+      "token_text": "dies",
+      "category": "rare"
+    },
+    {
+      "id": 15214,
+      "token_text": " Tales",
+      "category": "rare"
+    },
+    {
+      "id": 12428,
+      "token_text": " cens",
+      "category": "rare"
+    },
+    {
+      "id": 39173,
+      "token_text": " Airbus",
+      "category": "rare"
+    },
+    {
+      "id": 9231,
+      "token_text": " polls",
+      "category": "rare"
+    },
+    {
+      "id": 42208,
+      "token_text": " pag",
+      "category": "rare"
+    },
+    {
+      "id": 29583,
+      "token_text": " Flip",
+      "category": "rare"
+    },
+    {
+      "id": 37239,
+      "token_text": "�",
+      "category": "rare"
+    },
+    {
+      "id": 10845,
+      "token_text": " cul",
+      "category": "rare"
+    },
+    {
+      "id": 27486,
+      "token_text": " degradation",
+      "category": "rare"
+    },
+    {
+      "id": 48522,
+      "token_text": " Frenzy",
+      "category": "rare"
+    },
+    {
+      "id": 29930,
+      "token_text": " disinteg",
+      "category": "rare"
+    },
+    {
+      "id": 24931,
+      "token_text": " Kasich",
+      "category": "rare"
+    },
+    {
+      "id": 28062,
+      "token_text": " feder",
+      "category": "rare"
+    },
+    {
+      "id": 30401,
+      "token_text": " mortgages",
+      "category": "rare"
+    },
+    {
+      "id": 19857,
+      "token_text": "Forge",
+      "category": "rare"
+    },
+    {
+      "id": 8434,
+      "token_text": " inner",
+      "category": "rare"
+    },
+    {
+      "id": 34405,
+      "token_text": " Teresa",
+      "category": "rare"
+    },
+    {
+      "id": 25240,
+      "token_text": " 550",
+      "category": "rare"
+    },
+    {
+      "id": 26125,
+      "token_text": "Close",
+      "category": "rare"
+    },
+    {
+      "id": 38500,
+      "token_text": " onstage",
+      "category": "rare"
+    },
+    {
+      "id": 13753,
+      "token_text": " VA",
+      "category": "rare"
+    },
+    {
+      "id": 35141,
+      "token_text": " gunmen",
+      "category": "rare"
+    },
+    {
+      "id": 10757,
+      "token_text": "andy",
+      "category": "rare"
+    },
+    {
+      "id": 24453,
+      "token_text": "Charl",
+      "category": "rare"
+    },
+    {
+      "id": 28655,
+      "token_text": "bearing",
+      "category": "rare"
+    },
+    {
+      "id": 8861,
+      "token_text": " tasks",
+      "category": "rare"
+    },
+    {
+      "id": 39767,
+      "token_text": " Chromebook",
+      "category": "rare"
+    },
+    {
+      "id": 45737,
+      "token_text": " Pledge",
+      "category": "rare"
+    },
+    {
+      "id": 46652,
+      "token_text": " bystanders",
+      "category": "rare"
+    },
+    {
+      "id": 21664,
+      "token_text": " TA",
+      "category": "rare"
+    },
+    {
+      "id": 23087,
+      "token_text": " Words",
+      "category": "rare"
+    },
+    {
+      "id": 17442,
+      "token_text": "hett",
+      "category": "rare"
+    },
+    {
+      "id": 39201,
+      "token_text": "EMS",
+      "category": "rare"
+    }
+  ]
+}

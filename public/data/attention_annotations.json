@@ -1,0 +1,30 @@
+[
+  {
+    "layer": 0,
+    "head": 0,
+    "form_step": 175,
+    "title": "First-token attention sink",
+    "description": "Every query position dumps a large fraction of its attention onto the first token. By step 175 the model has locked in this 'attention sink' pattern. Most decoder-only transformers form one within their first few hundred steps; here it is the very first interpretable pattern that stabilizes."
+  },
+  {
+    "layer": 4,
+    "head": 5,
+    "form_step": 825,
+    "title": "Content-word anchor",
+    "description": "Multiple downstream queries lock onto the same content noun ('time') early in the prompt. By step 825 the head has decided this token is the semantic anchor of the sentence and uses it as a reference point for predictions in later positions."
+  },
+  {
+    "layer": 0,
+    "head": 3,
+    "form_step": 4000,
+    "title": "Previous-token attention",
+    "description": "Each query attends predominantly to the immediately preceding key, forming a clear sub-diagonal. This is the fundamental primitive any induction circuit requires — by routing position i-1's information into position i, later layers can implement pattern continuations like 'after X comes Y'."
+  },
+  {
+    "layer": 5,
+    "head": 2,
+    "form_step": 4300,
+    "title": "Comma as clause boundary",
+    "description": "Every query position after the comma attends strongly back to the comma itself. The head treats punctuation as a structural landmark — clauses before and after the comma are routed differently, and downstream predictions condition on which side of the boundary they sit."
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "embedding_xrange": [
+    -2.4386,
+    2.4776
+  ],
+  "embedding_yrange": [
+    -1.9742,
+    1.6515
+  ],
+  "n_tokens": 211,
+  "pca_components_shape": [
+    2,
+    384
+  ]
+}
