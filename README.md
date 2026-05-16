@@ -28,7 +28,7 @@ More markers in the app.
 Three independent pieces of evidence:
 
 1. **Public Weights & Biases run** with timestamped per-cadence loss/lr/tokens:
-   [https://wandb.ai/personalitytg-personality/pretraining-replay/runs/h9wwweop](https://wandb.ai/personalitytg-personality/pretraining-replay/reports/Pretraining-replay--VmlldzoxNjkwMTY1NA?accessToken=lb7ljpbx5w0597olek0c9gwc5wyk689w5a82hfem2p57vm7e3rtlpdnhvuz7k44n)
+   [https://wandb.ai/personalitytg-personality/pretraining-replay](https://wandb.ai/personalitytg-personality/pretraining-replay/reports/Pretraining-replay--VmlldzoxNjkwMTY1NA?accessToken=lb7ljpbx5w0597olek0c9gwc5wyk689w5a82hfem2p57vm7e3rtlpdnhvuz7k44n)
    The timestamps cannot be backdated.
 2. **SHA-256 hash of every cadence checkpoint** is committed in
    `public/data/manifest.json` under each `checkpoints[i].sha256`. Anyone who
